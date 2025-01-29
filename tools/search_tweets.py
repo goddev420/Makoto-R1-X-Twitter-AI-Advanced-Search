@@ -20,7 +20,7 @@ logger = logging.getLogger()
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "ERROR"))
 
 
-REQUIRED_KEYS = {"pt_rule", "endpoint"}
+REQUIRED_KEYS_X = {"pt_rule", "endpoint"}
 
 
 def parse_cmd_args():
